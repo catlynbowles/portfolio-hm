@@ -1,3 +1,5 @@
+import leopardHeart from "../../public/assets/leapord-heart.svg";
+import Image from "next/image";
 export const Intro = () => {
   return (
     <div className="font-fira flex flex-col items-center text-md">
@@ -14,7 +16,14 @@ export const Intro = () => {
         <li>horses</li>
         <li>web accessibility</li>
       </ul>
-        <p>~ 90's bb ~</p>
+      <Image
+        src={leopardHeart}
+        alt="my gif"
+        height={50}
+        width={50}
+        className="p-2"
+      />
+      <p>~ 90's bb ~</p>
       <p className="mt-4">you can call me 🐈‍⬛</p>
     </div>
   );

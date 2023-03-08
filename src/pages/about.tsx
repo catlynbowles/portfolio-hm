@@ -1,11 +1,8 @@
 export default function About() {
   return (
-    <div className="">
-      <p>
-        As a massage therapist turned software engineer, I'm a curious problem
-        solver with core values grounded in empathy, service, and meaningful
-        work. 
-      </p>
+    <div className="h-full" id="about">
+      <h2 className="text-8xl font-modak">get to know me</h2>
+      <p></p>
     </div>
   );
 }

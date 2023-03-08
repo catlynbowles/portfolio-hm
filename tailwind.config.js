@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 
-
 const plugin = require("tailwindcss/plugin");
 
 module.exports = {
@@ -15,21 +14,26 @@ module.exports = {
   theme: {
     extend: {
       display: ["group-hover"],
-    },
-    textShadow: {
-      sm: "0 1px 2px var(--tw-shadow-color)",
-      DEFAULT: "0 2px 4px var(--tw-shadow-color)",
-      lg: "0 8px 16px var(--tw-shadow-color)",
-    },
-    fontFamily: {
-      modak: ["Modak", "cursive"],
-      fira: ["Fira Sans", "cursive"],
-    },
-    backgroundImage: {
-      badSignal: "url('/public/assets/tv-bg.jpg')",
+      textShadow: {
+        sm: "0 1px 2px var(--tw-shadow-color)",
+        DEFAULT: "0 2px 4px var(--tw-shadow-color)",
+        lg: "0 8px 16px var(--tw-shadow-color)",
+      },
+      fontFamily: {
+        modak: ["Modak", "cursive"],
+        fira: ["Fira Sans", "cursive"],
+        friends: ["Gloria Hallelujah", 'cursive'],
+      },
+      backgroundImage: {
+        badSignal: "url('/public/assets/tv-bg.jpg')",
+      },
+      animation: {
+        go: "run 5s linear infinite",
+      },
     },
   },
   plugins: [
+    require("tailwindcss-animate"),
     plugin(function ({ matchUtilities, theme }) {
       matchUtilities(
         {
