@@ -1,7 +1,9 @@
 import { Intro } from "./Intro";
 import { Navbar } from "./Navbar";
+import Link from "next/link";
 import Image from "next/image";
 import catwalk from "../../public/assets/catwalk.gif";
+import troll from "../../public/assets/troll.png";
 
 export const LandingPage = () => {
   return (
@@ -23,7 +25,18 @@ export const LandingPage = () => {
           <Navbar />
         </div>
       </div>
-      <h3 className="absolute bottom-0 left-0 font-friends">SCROLL</h3>
+      <Link
+        href="/#about"
+        className="absolute bottom-2 left-2 flex flex-row items-center justify-center gap-2"
+      >
+        <Image
+          src={troll}
+          alt={"90's troll with pink hair!"}
+          className="rotate-180"
+          height={20}
+          width={20}
+        />
+      </Link>
     </section>
   );
 };

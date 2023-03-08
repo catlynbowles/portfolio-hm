@@ -2,11 +2,30 @@ import Head from "next/head";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import { LandingPage } from "@/components/LandingPage";
-import About from "./about";
-import Projects from "./projects";
-import Contact from "./contact";
+import About from "@/components/About";
+import Projects from "@/components/Projects";
+import Contact from "@/components/Contact";
+import Link from "next/link";
+import Image from "next/image";
+import troll from "../../public/assets/troll.png";
 
 const inter = Inter({ subsets: ["latin"] });
+
+export const Troll = () => {
+  return (
+    <Link
+      href="/"
+      className="top-2 right-2 flex flex-row items-center justify-center gap-2 fixed"
+    >
+      <Image
+        src={troll}
+        alt={"90's troll with pink hair!"}
+        height={20}
+        width={20}
+      />
+    </Link>
+  );
+};
 
 export default function Home() {
   return (
@@ -29,6 +48,9 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <LandingPage />
+        <div className="relative">
+          <Troll />
+        </div>
         <About />
         <Projects />
         <Contact />
