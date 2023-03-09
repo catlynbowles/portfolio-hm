@@ -8,8 +8,8 @@ export const TextEffect = ({ text }: TextEffectProps) => {
   useEffect(() => {
     let style1 = document.createElement("style");
     let style2 = document.createElement("style");
-    let after = document.getElementById(text + 'Af');
-    let before = document.getElementById(text + 'Bf');
+    let after = document.getElementById(text + "Af");
+    let before = document.getElementById(text + "Bf");
     const setKeyframesRules = (n: any, start = 0) => {
       let steps = "";
       for (let i = start; i <= n; i++) {
@@ -32,12 +32,12 @@ export const TextEffect = ({ text }: TextEffectProps) => {
       "glitch-anim-1 2.5s infinite linear alternate-reverse";
     before!.style.animation =
       "glitch-anim-2 3s infinite linear alternate-reverse";
-  }, []);
+  }, [text]);
 
   return (
     <h3 className="relative hidden group-hover:block">
       <span
-        id={text + 'Bf'}
+        id={text + "Bf"}
         className="absolute top-0 left-0.5 w-full h-full bg-transparent"
         style={{
           textShadow: "-2px 0 #49FC00",
@@ -47,10 +47,10 @@ export const TextEffect = ({ text }: TextEffectProps) => {
       >
         {text}
       </span>
-   
+
       {text}
       <span
-        id={text + 'Af'}
+        id={text + "Af"}
         className="absolute top-0 -left-0.5 w-full h-full bg-transparent"
         style={{
           textShadow: "-2px 0 spin(#49FC00, 180)",
@@ -60,7 +60,6 @@ export const TextEffect = ({ text }: TextEffectProps) => {
       >
         {text}
       </span>
- 
     </h3>
   );
 };
