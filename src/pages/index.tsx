@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const Troll = () => {
   return (
     <Link
-      href="/"
+      href="/#home"
       className="top-2 right-2 flex flex-row items-center justify-center gap-2 fixed"
     >
       <Image

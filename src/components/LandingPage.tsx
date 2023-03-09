@@ -7,7 +7,7 @@ import troll from "../../public/assets/troll.png";
 
 export const LandingPage = () => {
   return (
-    <section className="h-full">
+    <section className="h-full" id="home">
       <div>
         <Image
           src={catwalk}

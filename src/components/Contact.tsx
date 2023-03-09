@@ -19,7 +19,7 @@ export default function Contact() {
           />
         </div>
         <div className="flex items-center justify-center md:flex-row flex-col gap-20 py-4 mt-6">
-          <Link href="https://www.linkedin.com/in/lidia-karpinski/">
+          <Link href="https://www.linkedin.com/in/catlyn-bowles/">
             <div className="rounded-full bg-red-500 shadow-lg shadow-gray-400 cursor-pointer hover:scale-105 ease-in duration-100 h-40 w-40 relative">
               <FaLinkedinIn className="absolute top-14 right-14 text-white text-5xl" />
             </div>

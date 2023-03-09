@@ -30,16 +30,7 @@ export default function About() {
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
               quae ab Sed ut perspiciatis unde omnis iste natus error sit
               voluptatem accusantium doloremque laudantium, totam rem aperiam,
-              eaque ipsa quae abSed ut perspiciatis unde omnis iste natus error
-              sit voluptatem accusantium doloremque laudantium, totam rem
-              aperiam, eaque ipsa quae ab Sed ut perspiciatis unde omnis iste
-              natus error sit voluptatem accusantium doloremque laudantium,
-              totam rem aperiam, eaque ipsa quae abSed ut perspiciatis unde
-              omnis iste natus error sit voluptatem accusantium doloremque
-              laudantium, totam rem aperiam, eaque ipsa quae ab Sed ut
-              perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab
+              eaque ip 
             </p>
           </div>
           {/* </div> */}
