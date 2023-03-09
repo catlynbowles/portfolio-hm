@@ -1,18 +1,11 @@
 import PageFormat from "@/components/PageFormat";
 import { ProjectTile } from "./ProjectTile";
-import digitalPet from "../../public/assets/digital-pet.png";
-import paperHand from "../../public/assets/paper-hand-game.png";
-import candyBracelet from "../../public/assets/candy-bracelet.png";
-import gum from "../../public/assets/hubbo-gum.png";
-import gameboy from "../../public/assets/gameboy.png";
-import walkman from "../../public/assets/walkman.png";
-import Image from "next/image";
 import { ImageLineup } from "./ImageLineup";
 
 export default function Projects() {
   return (
     <PageFormat text="what I'm up to" id="projects">
-      <div className="flex flex-col md:flex-row gap-x-10 md:gap-y-0 gap-y-6  justify-center relative">
+      <div className="flex flex-col md:flex-row gap-x-10 gap-y-6 md:justify-center relative lg:h-[80%] h-full">
         <ProjectTile
           title="GoNoodle Universe"
           description=" Sed ut perspiciatis unde omnis iste natus error sit voluptatem

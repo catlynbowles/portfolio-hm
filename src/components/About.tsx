@@ -6,7 +6,7 @@ import vibewave from "../../public/assets/vibewave.png";
 export default function About() {
   return (
     <PageFormat text="get to know me" id="about">
-      <div className="flex justify-center relative h-full w-full">
+      <div className="flex relative h-full w-full">
         <Image
           src={vibewave}
           alt="vibewave"
@@ -14,22 +14,35 @@ export default function About() {
           width={500}
           className="rotate-180 absolute -z-10 left-0"
         />
-        <div className="shadow-md rounded-full bg-contain shadow-purple-900 border-teal-300 ml-20 h-fit ">
-          <Image
-            src={mee}
-            height={320}
-            alt="catlyn bowles headshot"
-            className="rounded-full"
-          />
-        </div>
-        <div className="h-full w-full">
-          <div className="rounded-full border relative shadow-md shadow-teal-300 border-purple-900 bg-white w-[80%] pb-[80%] min-w-[50%]">
-            <p className="absolute transform -translate-x-[50%] -translate-y-[50%] top-[50%] left-[50%]">
+        <div className="flex items-center gap-y-7 flex-col justify-start w-full -mt-7">
+          <div className="shadow-md rounded-full bg-contain shadow-purple-900 border-teal-300 h-fit w-fit">
+            <Image
+              src={mee}
+              height={320}
+              alt="catlyn bowles headshot"
+              className="rounded-full"
+            />
+          </div>
+          {/* <div className="relative"> */}
+          <div className="border shadow-md shadow-teal-300 border-purple-900 bg-white w-[80%] md:w-[50%]">
+            <p className="font-fira">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab Sed ut perspiciatis unde omnis iste natus error sit
+              voluptatem accusantium doloremque laudantium, totam rem aperiam,
+              eaque ipsa quae abSed ut perspiciatis unde omnis iste natus error
+              sit voluptatem accusantium doloremque laudantium, totam rem
+              aperiam, eaque ipsa quae ab Sed ut perspiciatis unde omnis iste
+              natus error sit voluptatem accusantium doloremque laudantium,
+              totam rem aperiam, eaque ipsa quae abSed ut perspiciatis unde
+              omnis iste natus error sit voluptatem accusantium doloremque
+              laudantium, totam rem aperiam, eaque ipsa quae ab Sed ut
+              perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
               quae ab
             </p>
           </div>
+          {/* </div> */}
         </div>
         <Image
           src={vibewave}

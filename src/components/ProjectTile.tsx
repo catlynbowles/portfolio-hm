@@ -17,7 +17,7 @@ export const ProjectTile = ({
     <div
       className={`border ${borderColor} md:w-[30%] flex flex-col items-center relative font-fira h-[80%] rounded-lg`}
     >
-      <div className="m-5  text-gray-800">
+      <div className="m-5 text-gray-800">
         <h4 className="font-modak text-3xl">{title}</h4>
         <p className="hidden md:block">&emsp; {description}</p>
       </div>
@@ -26,9 +26,10 @@ export const ProjectTile = ({
         <Link href={link} className="underline">
           Deployed
         </Link>
-        <Link href={link} className="underline">
+        <Link href={link} className="underline hidden md:block">
           Repo
         </Link>
+        ✨
       </div>
     </div>
   );
