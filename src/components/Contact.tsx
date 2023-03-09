@@ -1,17 +1,45 @@
 import Image from "next/image";
 import friends from "../../public/assets/friends-logo.svg";
 import PageFormat from "@/components/PageFormat";
+import Link from "next/link";
+import orangeCouch from "../../public/assets/orange-couch.png";
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
 
 export default function Contact() {
   return (
-    <PageFormat text="let's be" id="contact" className="flex">
-      <Image
-        src={friends}
-        alt="friends logo"
-        height={500}
-        width={500}
-        className="-my-32"
-      />
+    <PageFormat text="let's be" id="contact" className="relative">
+      <div className="flex flex-col gap-20 relative">
+        <div>
+          <Image
+            src={friends}
+            alt="friends logo"
+            height={500}
+            width={500}
+            className="-my-32"
+          />
+        </div>
+        <div className="flex items-center justify-center gap-20 py-4 mt-6">
+          <Link href="https://www.linkedin.com/in/lidia-karpinski/">
+            <div className="rounded-full bg-red-500 shadow-lg shadow-gray-400 cursor-pointer hover:scale-105 ease-in duration-100 h-40 w-40 relative">
+              <FaLinkedinIn className="absolute top-14 right-14 text-white text-5xl" />
+            </div>
+          </Link>
+          <Link href="https://github.com/catlynbowles">
+            <div className="rounded-full bg-blue-400 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-100 h-40 w-40 relative">
+              <FaGithub className="absolute top-14 right-14 text-white text-5xl" />
+            </div>
+          </Link>
+          <Link href="mailto:catlynbowles@gmail.com">
+            <div className="rounded-full  bg-yellow-400 shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 ease-in duration-100 h-40 w-40 relative">
+              <AiOutlineMail className="absolute top-14 right-14 text-white text-5xl" />
+            </div>
+          </Link>
+        </div>
+        <div className="absolute -bottom-72 left-[35%]">
+          <Image src={orangeCouch} alt="comfy orange couch" height={200} />
+        </div>
+      </div>
     </PageFormat>
   );
 }
