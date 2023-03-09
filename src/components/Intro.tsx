@@ -2,7 +2,7 @@ import leopardHeart from "../../public/assets/leapord-heart.svg";
 import Image from "next/image";
 export const Intro = () => {
   return (
-    <div className="font-fira flex flex-col items-center text-md justify-center gap-14 max-sm:gap-2">
+    <div className="font-fira flex flex-col items-center text-md justify-center gap-10 max-sm:gap-2">
       <div className="flex flex-col justify-center items-center">
         <h1>
           <em>hi, i'm catlyn</em>
@@ -13,7 +13,7 @@ export const Intro = () => {
         <p>
           <em>and enthusiast of</em>
         </p>
-        <ul className="flex justify-center gap-4 items-center w-full max-sm:flex-col max-sm:gap-0 whitespace-nowrap">
+        <ul className="flex justify-center gap-3 items-center w-full max-sm:flex-col max-sm:gap-0 whitespace-nowrap">
           <li>~ matcha</li>
           <li>~ taylor swift</li>
           <li>~ horses</li>
@@ -23,8 +23,8 @@ export const Intro = () => {
         <Image
           src={leopardHeart}
           alt="my gif"
-          height={50}
-          width={50}
+          height={60}
+          width={60}
           className="p-2"
         />
       </div>

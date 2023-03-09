@@ -21,11 +21,12 @@ export const ProjectTile = ({
         <h4 className="font-modak text-3xl">{title}</h4>
         <p className="hidden md:block">&emsp; {description}</p>
       </div>
-      <div className="flex flex-col items-center lg:gap-4">
+      <div className="flex items-center lg:gap-4">
         ✨
         <Link href={link} className="underline">
           Deployed
         </Link>
+        ✨
         <Link href={link} className="underline hidden md:block">
           Repo
         </Link>

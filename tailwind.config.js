@@ -36,6 +36,20 @@ module.exports = {
       borderRadius: {
         hg: "255px 15px 225px 15px/15px 225px 15px 255px",
       },
+      animation: {
+        "marquee-slower": "marquee 30s linear infinite",
+        // marquee: "marquee 27s linear infinite",
+        // "marquee-faster": "marquee 15s linear infinite",
+        // "scroll-slower": "scroll 15s linear infinite",
+      },
+      keyframes: {
+        marquee: {
+          "0%": { transform: "translateX(-250%)" },
+          "100%": { transform: "translateX(250%)" },
+          // "0%": { transform: "translateY(60%)" },
+          // "500%": { transform: "translateY(100%)" },
+        },
+      },
     },
   },
   plugins: [

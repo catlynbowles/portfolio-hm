@@ -26,6 +26,15 @@ export const Navbar = () => {
         <div className="bg-black h-full w-full hover:bg-transparent hover:uppercase">
           <Link
             className="-mb-8 text-shadow-lg group text-white hover:text-black"
+            href="/#work"
+          >
+            <TextEffect text="work" />
+            <h3 className="group-hover:hidden">work</h3>
+          </Link>
+        </div>
+        <div className="bg-black h-full w-full hover:bg-transparent hover:uppercase">
+          <Link
+            className="-mb-8 text-shadow-lg group text-white hover:text-black"
             href="/#contact"
           >
             <TextEffect text="contact" />

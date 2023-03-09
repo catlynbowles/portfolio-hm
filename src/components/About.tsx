@@ -11,7 +11,7 @@ export default function About() {
           src={vibewave}
           alt="vibewave"
           height={100}
-          width={500}
+          width={600}
           className="rotate-180 absolute -z-10 left-0"
         />
         <div className="flex items-center gap-y-7 flex-col justify-start w-full -mt-7">
@@ -30,7 +30,7 @@ export default function About() {
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
               quae ab Sed ut perspiciatis unde omnis iste natus error sit
               voluptatem accusantium doloremque laudantium, totam rem aperiam,
-              eaque ip 
+              eaque ip
             </p>
           </div>
           {/* </div> */}
@@ -39,8 +39,8 @@ export default function About() {
           src={vibewave}
           alt="vibewave"
           height={100}
-          width={500}
-          className="absolute -z-10 right-0 bottom-10"
+          width={600}
+          className="absolute -z-10 right-0 top-10"
         />
       </div>
     </PageFormat>
