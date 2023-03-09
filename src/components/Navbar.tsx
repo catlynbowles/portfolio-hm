@@ -4,7 +4,7 @@ import { TextEffect } from "./TextEffect";
 export const Navbar = () => {
   return (
     <nav className="w-[100%] overflow-hidden">
-      <div className="bg-[url('../../public/assets/tv-bg.jpg')] rounded-lg bg-contain flex flex-col font-modak text-9xl max-md:text-7xl h-full md:w-[40rem] ">
+      <div className="bg-[url('../../public/assets/tv-bg.jpg')] rounded-lg bg-contain flex flex-col font-modak text-9xl max-md:text-7xl h-full md:w-[38rem] ">
         <div className="bg-black hover:bg-transparent">
           <Link
             className="-mb-8 text-shadow-lg group rotate-90 m-0 text-white hover:text-black hover:uppercase"

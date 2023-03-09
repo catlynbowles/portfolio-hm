@@ -12,7 +12,7 @@ import { ImageLineup } from "./ImageLineup";
 export default function Projects() {
   return (
     <PageFormat text="what I'm up to" id="projects">
-      <div className="flex flex-row gap-x-10 justify-center h-[80%] relative">
+      <div className="flex flex-col md:flex-row gap-x-10 md:gap-y-0 gap-y-6  justify-center relative">
         <ProjectTile
           title="GoNoodle Universe"
           description=" Sed ut perspiciatis unde omnis iste natus error sit voluptatem

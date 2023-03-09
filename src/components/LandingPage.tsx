@@ -14,7 +14,7 @@ export const LandingPage = () => {
           alt="my gif"
           height={300}
           width={300}
-          className="animate-in slide-in-from-left ease-in delay-300"
+          className="animate-in slide-in-from-left ease-in delay-300 md:m-5"
         />
       </div>
       <div className="flex items-center justify-evenly flex-col md:flex-row gap-4">

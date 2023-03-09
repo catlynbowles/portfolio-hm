@@ -8,7 +8,7 @@ import Image from "next/image";
 
 export const ImageLineup = () => {
   return (
-    <div className="absolute flex w-full gap-10 bottom-0 left-[20%] items-center border-pi">
+    <div className="absolute w-full gap-10 bottom-0 left-[20%] items-center hidden lg:flex">
       <Image
         src={digitalPet}
         height={60}

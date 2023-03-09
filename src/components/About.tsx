@@ -22,9 +22,9 @@ export default function About() {
             className="rounded-full"
           />
         </div>
-        <div className="h-[85%] w-[42%]">
-          <div className="rounded-full border relative shadow-md shadow-teal-300 border-purple-900 bg-white h-full w-full">
-            <p className="absolute top-60 mx-10 font-fira">
+        <div className="h-full w-full">
+          <div className="rounded-full border relative shadow-md shadow-teal-300 border-purple-900 bg-white w-[80%] pb-[80%] min-w-[50%]">
+            <p className="absolute transform -translate-x-[50%] -translate-y-[50%] top-[50%] left-[50%]">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
               quae ab
