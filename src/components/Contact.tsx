@@ -4,13 +4,13 @@ import PageFormat from "@/components/PageFormat";
 
 export default function Contact() {
   return (
-    <PageFormat text="lets be" id="contact">
+    <PageFormat text="let's be" id="contact" className="flex">
       <Image
         src={friends}
         alt="friends logo"
         height={500}
         width={500}
-        className="absolute"
+        className="-my-32"
       />
     </PageFormat>
   );

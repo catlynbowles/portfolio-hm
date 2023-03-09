@@ -22,13 +22,19 @@ module.exports = {
       fontFamily: {
         modak: ["Modak", "cursive"],
         fira: ["Fira Sans", "cursive"],
-        friends: ["Gloria Hallelujah", 'cursive'],
+        friends: ["Gloria Hallelujah", "cursive"],
       },
       backgroundImage: {
         badSignal: "url('/public/assets/tv-bg.jpg')",
       },
       animation: {
         go: "run 5s linear infinite",
+      },
+      boxShadow: {
+        hg: "20px 38px 34px -26px hsla(0,0%,0%,.2)",
+      },
+      borderRadius: {
+        hg: "255px 15px 225px 15px/15px 225px 15px 255px",
       },
     },
   },
