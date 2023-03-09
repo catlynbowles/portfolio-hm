@@ -2,7 +2,7 @@ import leopardHeart from "../../public/assets/leapord-heart.svg";
 import Image from "next/image";
 export const Intro = () => {
   return (
-    <div className="font-fira flex flex-col items-center text-md justify-center gap-10 max-sm:gap-">
+    <div className="font-fira flex flex-col items-center text-md justify-center gap-10 max-sm:gap-2">
       <div className="flex flex-col justify-center items-center">
         <h1>
           <em>hi, i'm catlyn</em>

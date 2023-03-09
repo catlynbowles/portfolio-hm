@@ -17,7 +17,7 @@ export const LandingPage = () => {
           className="animate-in slide-in-from-left ease-in delay-300"
         />
       </div>
-      <div className="flex items-center justify-evenly flex-col md:flex-row">
+      <div className="flex items-center justify-evenly flex-col md:flex-row gap-4">
         <div>
           <Intro />
         </div>
