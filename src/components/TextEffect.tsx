@@ -32,7 +32,7 @@ export const TextEffect = ({ text }: TextEffectProps) => {
       "glitch-anim-1 2.5s infinite linear alternate-reverse";
     before!.style.animation =
       "glitch-anim-2 3s infinite linear alternate-reverse";
-  }, [text]);
+  }, []);
 
   return (
     <h3 className="relative hidden group-hover:block">
