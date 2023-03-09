@@ -17,11 +17,11 @@ export const LandingPage = () => {
           className="animate-in slide-in-from-left ease-in delay-300"
         />
       </div>
-      <div className="flex items-center justify-evenly">
+      <div className="flex items-center justify-evenly flex-col md:flex-row">
         <div>
           <Intro />
         </div>
-        <div>
+        <div className="flex items-center justify-center">
           <Navbar />
         </div>
       </div>
