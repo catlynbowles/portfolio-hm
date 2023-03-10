@@ -42,6 +42,12 @@ module.exports = {
         // "marquee-faster": "marquee 15s linear infinite",
         // "scroll-slower": "scroll 15s linear infinite",
       },
+      lineClamp: {
+        7: "7",
+        8: "8",
+        9: "9",
+        10: "10",
+      },
       keyframes: {
         marquee: {
           "0%": { transform: "translateX(-250%)" },
@@ -51,9 +57,13 @@ module.exports = {
         },
       },
     },
+    variants: {
+      lineClamp: ["responsive", "hover"],
+    },
   },
   plugins: [
     require("tailwindcss-animate"),
+    require("@tailwindcss/line-clamp"),
     plugin(function ({ matchUtilities, theme }) {
       matchUtilities(
         {
