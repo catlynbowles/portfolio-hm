@@ -42,12 +42,6 @@ module.exports = {
         // "marquee-faster": "marquee 15s linear infinite",
         // "scroll-slower": "scroll 15s linear infinite",
       },
-      lineClamp: {
-        7: "7",
-        8: "8",
-        9: "9",
-        10: "10",
-      },
       keyframes: {
         marquee: {
           "0%": { transform: "translateX(-250%)" },
@@ -55,6 +49,12 @@ module.exports = {
           // "0%": { transform: "translateY(60%)" },
           // "500%": { transform: "translateY(100%)" },
         },
+      },
+      lineClamp: {
+        7: "7",
+        8: "8",
+        9: "9",
+        10: "10",
       },
     },
     variants: {

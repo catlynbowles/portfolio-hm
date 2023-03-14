@@ -7,7 +7,10 @@ import troll from "../../public/assets/troll.png";
 
 export const LandingPage = () => {
   return (
-    <section className="h-full flex justify-center relative w-full" id="home">
+    <section
+      className="h-full flex justify-center relative w-full animate-in"
+      id="home"
+    >
       <div className="absolute">
         <Image
           src={catwalk}

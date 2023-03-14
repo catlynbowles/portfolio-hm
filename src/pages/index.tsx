@@ -44,7 +44,7 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Lato:ital,wght@0,400;0,700;1,400&family=Luxurious+Roman&family=Shantell+Sans:wght@300;400;700&display=swap&family=Modak&display=swap&family=Gloria+Hallelujah&family=Fira+Sans:ital,wght@0,300;0,400;1,300;1,400"
           rel="stylesheet"
         ></link>
-        {/* <link rel="icon" href="/favicon.ico" /> */}
+        <link rel="icon" href="/butterflyclip-pink.png" />
       </Head>
       <main className={styles.main}>
         <LandingPage />
