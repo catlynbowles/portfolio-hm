@@ -50,10 +50,20 @@ module.exports = {
           // "500%": { transform: "translateY(100%)" },
         },
       },
+      lineClamp: {
+        7: "7",
+        8: "8",
+        9: "9",
+        10: "10",
+      },
+    },
+    variants: {
+      lineClamp: ["responsive", "hover"],
     },
   },
   plugins: [
     require("tailwindcss-animate"),
+    require("@tailwindcss/line-clamp"),
     plugin(function ({ matchUtilities, theme }) {
       matchUtilities(
         {

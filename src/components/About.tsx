@@ -24,13 +24,18 @@ export default function About() {
             />
           </div>
           {/* <div className="relative"> */}
-          <div className="border shadow-md shadow-teal-300 border-purple-900 bg-white w-[80%] md:w-[50%]">
-            <p className="font-fira">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab Sed ut perspiciatis unde omnis iste natus error sit
-              voluptatem accusantium doloremque laudantium, totam rem aperiam,
-              eaque ip
+          <div className="font-fira border shadow-md shadow-teal-300 border-purple-900 bg-white w-[80%] md:w-[50%]">
+            <p className="m-5 line-clamp-8 hover:line-clamp-none">
+              As a massage therapist turned software engineer, I'm a curious
+              problem solver with core values grounded in empathy, service, and
+              meaningful work. I care deeply about creating aesthetically
+              pleasing, welcoming, and effective software that is inclusive to a
+              wide population of users. Currently I am completing an Engineering
+              Apprenticeship at Upstatement, where I am working on building
+              educational tools that can be used to promote physical and
+              emotional awareness in the classroom. I am actively looking for my
+              next role, where I hope to implement my general enthusiasm and
+              passion for this industry to good use.
             </p>
           </div>
           {/* </div> */}
