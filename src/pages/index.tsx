@@ -17,6 +17,7 @@ export const Troll = () => {
       href="/#home"
       className="top-2 right-2 flex flex-row items-center justify-center gap-2 fixed"
     >
+      Home
       <Image
         src={troll}
         alt={"90's troll with pink hair!"}
@@ -48,9 +49,11 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <LandingPage />
-        <div className="relative">
-          <Troll />
-        </div>
+        <Link href="/">
+          <div className="relative">
+            <Troll />
+          </div>
+        </Link>
         <About />
         <Projects />
         <Contact />

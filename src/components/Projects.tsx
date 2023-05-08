@@ -27,12 +27,11 @@ export default function Projects() {
           repoLink={"https://github.com/Roe-dToAid/roed_to_aid_fe"}
         />
         <ProjectTile
-          title="Write the Stars"
-          description="(What I'm currently working on!) This is a practice project I'm creating to learn Firebase. A user logs in, and takes various questions to see if they can match their day to their predicted daily horoscope -- stay tuned for more!
-          Being built in Typescript, styled in Tailwind, using Firebase as data source."
-          link={null}
+          title="Vibecheck"
+          description="A mindfulness application with the goal of helping people feel less alone. A user can select a feeling, then view pictures and images connected to tweets of those who reported feeling the same. Solo project that I desgined, conceptualized and built in Typescript, Next.js, and Tailwind, deployed on Vercel."
+          link="https://portfolio-hm-ten.vercel.app/"
           borderColor="border-teal-500"
-          repoLink={"https://github.com/catlynbowles/write-the-stars"}
+          repoLink={"https://github.com/catlynbowles/portfolio-hm"}
         />
         <ImageLineup />
       </div>
