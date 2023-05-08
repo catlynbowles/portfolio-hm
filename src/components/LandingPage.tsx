@@ -28,18 +28,6 @@ export const LandingPage = () => {
           <Navbar />
         </div>
       </div>
-      <Link
-        href="/#about"
-        className="absolute bottom-2 left-2 flex flex-row items-center justify-center gap-2"
-      >
-        <Image
-          src={troll}
-          alt={"90's troll with pink hair!"}
-          className="rotate-180"
-          height={20}
-          width={20}
-        />
-      </Link>
     </section>
   );
 };
