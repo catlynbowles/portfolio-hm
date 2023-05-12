@@ -11,8 +11,8 @@ export const ImageLineup = () => {
     <div className="absolute w-full gap-x-10 bottom-0 left-[20%] items-center hidden md:flex">
       <Image
         src={digitalPet}
-        height={60}
-        width={60}
+        height='60'
+        width='60'
         alt="90's tamagochi"
         className="hover:-rotate-45"
       />

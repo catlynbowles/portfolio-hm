@@ -15,6 +15,9 @@ export default function Contact() {
             src={friends}
             alt="friends logo"
             width={500}
+            height={500}
+            loading="eager"
+            priority={true}
             className="-my-32 shrink-0"
           />
         </div>

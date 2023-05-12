@@ -27,7 +27,7 @@ export const ProjectTile = ({
         ✨
         {link && (
           <Link href={link} className="underline">
-            Deployed
+            {link.includes('gonoodle') ? 'Live' : 'Deployed'}
           </Link>
         )}
         {repoLink && (
