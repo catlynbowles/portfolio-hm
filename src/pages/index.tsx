@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const Troll = () => {
   return (
     <Link
-      href="/#home"
+      href="/"
       className="top-2 right-2 flex flex-row items-center justify-center gap-2 fixed"
     >
       Home
@@ -32,12 +32,16 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Catlyn Bowles | Front-End Software Engineer</title>
+        <title>Catlyn Bowles | Front-End Software Engineer</title>{" "}
         <meta
           name="description"
           content="I'm a front-end developer with a special interest in web accessibility and contributing to the ability of the web to be diverse and available for people of many backgrounds."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="format-detection"
+          content="telephone=no, date=no, email=no, address=no"
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com"></link>
         <link rel="preconnect" href="https://fonts.googleapis.com"></link>
         <link rel="preconnect" href="https://fonts.gstatic.com"></link>
@@ -49,11 +53,9 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <LandingPage />
-        <Link href="/">
-          <div className="relative">
-            <Troll />
-          </div>
-        </Link>
+        <div className="relative">
+          <Troll />
+        </div>
         <About />
         <Projects />
         <Contact />

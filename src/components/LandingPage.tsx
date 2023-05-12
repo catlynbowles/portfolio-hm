@@ -1,9 +1,7 @@
 import { Intro } from "./Intro";
 import { Navbar } from "./Navbar";
-import Link from "next/link";
 import Image from "next/image";
 import catwalk from "../../public/assets/catwalk.gif";
-import troll from "../../public/assets/troll.png";
 
 export const LandingPage = () => {
   return (
