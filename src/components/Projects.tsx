@@ -29,9 +29,9 @@ export default function Projects() {
         <ProjectTile
           title="Vibecheck"
           description="A mindfulness application with the goal of helping people feel less alone. A user can select a feeling, then view pictures and images connected to tweets of those who reported feeling the same. Solo project that I desgined, conceptualized and built in Typescript, Next.js, and Tailwind, deployed on Vercel."
-          link="https://portfolio-hm-ten.vercel.app/"
+          link="https://vibes-fawn.vercel.app/"
           borderColor="border-teal-500"
-          repoLink={"https://github.com/catlynbowles/portfolio-hm"}
+          repoLink={"https://github.com/catlynbowles/vibes"}
         />
         <ImageLineup />
       </div>
