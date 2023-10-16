@@ -30,12 +30,9 @@ export default function About() {
               problem solver with core values grounded in empathy, service, and
               meaningful work. I care deeply about creating aesthetically
               pleasing, welcoming, and effective software that is inclusive to a
-              wide population of users. Currently I am completing an Engineering
-              Apprenticeship at Upstatement, where I am working on building
-              educational tools that can be used to promote physical and
-              emotional awareness in the classroom. I am actively looking for my
-              next role, where I hope to implement my general enthusiasm and
-              passion for this industry to good use.
+              wide population of users. Currently I work as an Application
+              Developer at Allbridge, and am interested in connecting with
+              others in the field!
             </p>
           </div>
           {/* </div> */}
